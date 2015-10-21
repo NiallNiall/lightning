@@ -1,25 +1,82 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
+
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <title>Niall Henn - Lightning Talk</title>
 
-        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/nh-theme.css" id="theme">
+        <link rel="stylesheet" href="css/nh-bubbletters.css" id="theme">
+        <style type="text/css" media="screen">
+            .slides section.has-dark-background,
+            .slides section.has-dark-background h2 {
+                color: #fff;
+            }
+            .slides section.has-light-background,
+            .slides section.has-light-background h2 {
+                color: #222;
+            }
+        </style>
     </head>
+
     <body>
 
-        <div class="aniletter aniletter-p"></div>
-        <div class="aniletter aniletter-o"></div>
-        <div class="aniletter aniletter-e"></div>
-        <div class="aniletter aniletter-t"></div>
-        <div class="aniletter aniletter-r"></div>
-        <div class="aniletter aniletter-y"></div>
+    <script src="js/processing.js"></script>
+    <script src="js/de.bezier.gui.js"></script>
+
+        <div class="reveal">
+
+            <div class="whiteborder wb-top"></div>
+            <div class="whiteborder wb-right"></div>
+            <div class="whiteborder wb-bottom"></div>
+            <div class="whiteborder wb-left"></div>
+
+            <div class="slides">
+
+                <section data-background-color="#EC5284" data-state="aniletter-go">
+                    <div class="aniletter anitest aniletter-p"></div>
+                    <div class="aniletter anitest aniletter-o"></div>
+                    <div class="aniletter anitest aniletter-e"></div>
+                    <div class="aniletter anitest aniletter-t"></div>
+                    <div class="aniletter anitest aniletter-r"></div>
+                    <div class="aniletter anitest aniletter-y"></div>
+                </section>
+
+                <section data-background-color="#Ecc362">
+                    <div class="aniletter anitest aniletter-p"></div>
+                    <div class="aniletter anitest aniletter-o"></div>
+                    <div class="aniletter anitest aniletter-e"></div>
+                    <div class="aniletter anitest aniletter-t"></div>
+                    <div class="aniletter anitest aniletter-r"></div>
+                    <div class="aniletter anitest aniletter-y"></div>
+                </section>
+
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                center: true,
+                // rtl: true,
+
+                transition: 'linear',
+                // transitionSpeed: 'slow',
+                // backgroundTransition: 'slide'
+            });
+
+        </script>
 
     </body>
 </html>
+

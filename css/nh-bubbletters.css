@@ -1,0 +1,78 @@
+body {
+  background: #8a8;
+  /*background: url(../img/bg.jpg) left center;*/
+  /*padding: 40px;*/
+}
+
+.reveal .aniletter {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background: #525;
+  background: url(../img/letters/e.png) left center;
+  /*animation-name: letterAnim 1s steps(18) infinite;*/
+  animation: letterAnim 1s steps(47) infinite;
+  /*animation-duration: 4s;*/
+  position: relative;
+  /*transform: scale(0);*/
+}
+
+@keyframes letterAnim {
+  /*// go one lower than the total*/
+  100% { background-position: -9495px; }
+}
+
+.aniletter-go .aniletter{
+  /*animation: growIn 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1;*/
+}
+
+
+@keyframes growIn {
+  /*// go one lower than the total*/
+    from {transform: scale(0.0);}
+    to {transform: scale(1.0);}
+}
+
+
+
+.reveal .aniletter.aniletter-p {
+  background: url(../img/letters/p.png) left center;
+  /*-webkit-animation-delay: 0.2s;*/
+  -webkit-animation-duration: 1.4s;
+  /*margin-left: -70px;*/
+}
+.reveal .aniletter.aniletter-o {
+  background: url(../img/letters/o.png) left center;
+  /*-webkit-animation-delay: 0.1s;*/
+  -webkit-animation-duration: 1.3s;
+  margin-left: -70px;
+}
+.reveal .aniletter.aniletter-e {
+  background: url(../img/letters/e.png) left center;
+  /*-webkit-animation-delay: 0.3s;*/
+  -webkit-animation-duration: 1.2s;
+  margin-left: -70px;
+
+}
+.reveal .aniletter.aniletter-t {
+  background: url(../img/letters/t.png) left center;
+  /*-webkit-animation-delay: 0.4s;*/
+  -webkit-animation-duration: 1.4s;
+  margin-left: -100px;
+
+}
+.reveal .aniletter.aniletter-r {
+  background: url(../img/letters/r.png) left center;
+  /*-webkit-animation-delay: 0;*/
+  -webkit-animation-duration: 1.3s;
+  margin-left: -130px;
+
+}
+.reveal .aniletter.aniletter-y {
+  background: url(../img/letters/y.png) left center;
+  /*-webkit-animation-delay: 0.1s;*/
+  -webkit-animation-duration: 1.1s;
+  margin-left: -120px;
+
+}
+
