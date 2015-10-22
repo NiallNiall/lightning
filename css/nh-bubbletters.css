@@ -22,6 +22,11 @@ body {
   100% { background-position: -9495px; }
 }
 
+@keyframes letterAnimActual {
+  /*// go one lower than the total*/
+  100% { background-position: -9600px; }
+}
+
 .aniletter-go .aniletter{
   /*animation: growIn 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1;*/
 }
@@ -32,6 +37,7 @@ body {
     from {transform: scale(0.0);}
     to {transform: scale(1.0);}
 }
+
 
 
 
@@ -73,6 +79,32 @@ body {
   /*-webkit-animation-delay: 0.1s;*/
   -webkit-animation-duration: 1.1s;
   margin-left: -120px;
-
 }
 
+.reveal .aniletter.aniletter-i {
+  background: url(../img/letters/imgk-i.png) left center;
+  /*-webkit-animation-delay: 0.2s;*/
+  /*-webkit-animation-duration: 1.4s;*/
+  animation: letterAnimActual 1s steps(48) infinite;
+  margin-left: -70px;
+}
+.reveal .aniletter.aniletter-x {
+  background: url(../img/letters/x.png) left center;
+  /*-webkit-animation-delay: 0.1s;*/
+  -webkit-animation-duration: 1.3s;
+  margin-left: -70px;
+}
+
+.reveal .aniletter.aniletter-l {
+  background: url(../img/letters/l.png) left center;
+  /*-webkit-animation-delay: 0.4s;*/
+  -webkit-animation-duration: 1.4s;
+  margin-left: -100px;
+
+}
+.reveal .aniletter.aniletter-s {
+  background: url(../img/letters/s.png) left center;
+  /*-webkit-animation-delay: 0;*/
+  -webkit-animation-duration: 1.3s;
+  margin-left: -130px;
+}
