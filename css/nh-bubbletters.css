@@ -11,7 +11,7 @@ body {
   background: #525;
   background: url(../img/letters/e.png) left center;
   /*animation-name: letterAnim 1s steps(18) infinite;*/
-  animation: letterAnim 1s steps(47) infinite;
+  animation: letterAnim 1s steps(48) infinite;
   /*animation-duration: 4s;*/
   position: relative;
   /*transform: scale(0);*/
@@ -19,7 +19,7 @@ body {
 
 @keyframes letterAnim {
   /*// go one lower than the total*/
-  100% { background-position: -9495px; }
+  100% { background-position: -9600px; }
 }
 
 @keyframes letterAnimActual {
@@ -82,10 +82,10 @@ body {
 }
 
 .reveal .aniletter.aniletter-i {
-  background: url(../img/letters/imgk-i.png) left center;
+  background: url(../img/letters/i.png) left center;
   /*-webkit-animation-delay: 0.2s;*/
   /*-webkit-animation-duration: 1.4s;*/
-  animation: letterAnimActual 1s steps(48) infinite;
+  -webkit-animation-duration: 1.1s;
   margin-left: -70px;
 }
 .reveal .aniletter.aniletter-x {
@@ -107,4 +107,90 @@ body {
   /*-webkit-animation-delay: 0;*/
   -webkit-animation-duration: 1.3s;
   margin-left: -130px;
+}
+
+
+
+
+
+
+
+
+.reveal .aniletter.aniletter-a {
+  background: url(../img/letters/a.png) left center;
+}
+.reveal .aniletter.aniletter-b {
+  background: url(../img/letters/b.png) left center;
+}
+.reveal .aniletter.aniletter-c {
+  background: url(../img/letters/c.png) left center;
+}
+.reveal .aniletter.aniletter-d {
+  background: url(../img/letters/d.png) left center;
+}
+.reveal .aniletter.aniletter-e {
+  background: url(../img/letters/e.png) left center;
+}
+.reveal .aniletter.aniletter-f {
+  background: url(../img/letters/f.png) left center;
+}
+.reveal .aniletter.aniletter-g {
+  background: url(../img/letters/g.png) left center;
+}
+.reveal .aniletter.aniletter-h {
+  background: url(../img/letters/h.png) left center;
+}
+.reveal .aniletter.aniletter-i {
+  background: url(../img/letters/i.png) left center;
+}
+.reveal .aniletter.aniletter-j {
+  background: url(../img/letters/j.png) left center;
+}
+.reveal .aniletter.aniletter-k {
+  background: url(../img/letters/k.png) left center;
+}
+.reveal .aniletter.aniletter-l {
+  background: url(../img/letters/l.png) left center;
+}
+.reveal .aniletter.aniletter-m {
+  background: url(../img/letters/m.png) left center;
+}
+.reveal .aniletter.aniletter-n {
+  background: url(../img/letters/n.png) left center;
+}
+.reveal .aniletter.aniletter-o {
+  background: url(../img/letters/o.png) left center;
+}
+.reveal .aniletter.aniletter-p {
+  background: url(../img/letters/p.png) left center;
+}
+.reveal .aniletter.aniletter-q {
+  background: url(../img/letters/q.png) left center;
+}
+.reveal .aniletter.aniletter-r {
+  background: url(../img/letters/r.png) left center;
+}
+.reveal .aniletter.aniletter-s {
+  background: url(../img/letters/s.png) left center;
+}
+.reveal .aniletter.aniletter-t {
+  background: url(../img/letters/t.png) left center;
+}
+.reveal .aniletter.aniletter-u {
+  background: url(../img/letters/u.png) left center;
+}
+.reveal .aniletter.aniletter-v {
+  background: url(../img/letters/v.png) left center;
+}
+.reveal .aniletter.aniletter-w {
+  background: url(../img/letters/w.png) left center;
+}
+.reveal .aniletter.aniletter-x {
+  background: url(../img/letters/x.png) left center;
+}
+.reveal .aniletter.aniletter-y {
+  background: url(../img/letters/y.png) left center;
+}
+.reveal .aniletter.aniletter-z {
+  background: url(../img/letters/z.png) left center;
 }
