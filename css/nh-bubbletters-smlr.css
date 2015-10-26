@@ -1,0 +1,242 @@
+body {
+  background: #8a8;
+}
+
+.reveal .aniletter {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background: #525;
+  background: url(../img/letters/e.png) left center;
+  animation: letterAnim 2.0s steps(48) infinite;
+  position: relative;
+}
+
+@keyframes letterAnim {
+  /*// go one lower than the total*/
+  100% { background-position: -9600px; }
+}
+
+
+.reveal .aniletter.aniletter-space {
+  background: none;
+  animation: none;
+  margin-right: -50px;
+}
+
+.reveal .aniletter:nth-child(2n+1) {
+  -webkit-animation-duration: 3.8s;
+}
+.reveal .aniletter:nth-child(1) {
+  -webkit-animation-duration: 3.2s;
+}
+.reveal .aniletter::nth-child(-n+3) {
+  -webkit-animation-duration: 4.0s;
+}
+
+@keyframes float {
+  /*// go one lower than the total*/
+    0% { margin-top: 0;}
+    50% { margin-top: 20px;}
+    100% {margin-top: 0;}
+
+}
+
+
+.reveal .aniletter.aniletter-a {
+  background: url(../img/letters-halfsize/a.png) left center;
+}
+.reveal .aniletter.aniletter-b {
+  background: url(../img/letters-halfsize/b.png) left center;
+}
+.reveal .aniletter.aniletter-c {
+  background: url(../img/letters-halfsize/c.png) left center;
+}
+.reveal .aniletter.aniletter-d {
+  background: url(../img/letters-halfsize/d.png) left center;
+}
+.reveal .aniletter.aniletter-e {
+  background: url(../img/letters-halfsize/e.png) left center;
+}
+.reveal .aniletter.aniletter-f {
+  background: url(../img/letters-halfsize/f.png) left center;
+}
+.reveal .aniletter.aniletter-g {
+  background: url(../img/letters-halfsize/g.png) left center;
+}
+.reveal .aniletter.aniletter-h {
+  background: url(../img/letters-halfsize/h.png) left center;
+}
+.reveal .aniletter.aniletter-i {
+  background: url(../img/letters-halfsize/i.png) left center;
+}
+.reveal .aniletter.aniletter-j {
+  background: url(../img/letters-halfsize/j.png) left center;
+}
+.reveal .aniletter.aniletter-k {
+  background: url(../img/letters-halfsize/k.png) left center;
+}
+.reveal .aniletter.aniletter-l {
+  background: url(../img/letters-halfsize/l.png) left center;
+}
+.reveal .aniletter.aniletter-m {
+  background: url(../img/letters-halfsize/m.png) left center;
+}
+.reveal .aniletter.aniletter-n {
+  background: url(../img/letters-halfsize/n.png) left center;
+}
+.reveal .aniletter.aniletter-o {
+  background: url(../img/letters-halfsize/o.png) left center;
+}
+.reveal .aniletter.aniletter-p {
+  background: url(../img/letters-halfsize/p.png) left center;
+}
+.reveal .aniletter.aniletter-q {
+  background: url(../img/letters-halfsize/q.png) left center;
+}
+.reveal .aniletter.aniletter-r {
+  background: url(../img/letters-halfsize/r.png) left center;
+}
+.reveal .aniletter.aniletter-s {
+  background: url(../img/letters-halfsize/s.png) left center;
+}
+.reveal .aniletter.aniletter-t {
+  background: url(../img/letters-halfsize/t.png) left center;
+}
+.reveal .aniletter.aniletter-u {
+  background: url(../img/letters-halfsize/u.png) left center;
+}
+.reveal .aniletter.aniletter-v {
+  background: url(../img/letters-halfsize/v.png) left center;
+}
+.reveal .aniletter.aniletter-w {
+  background: url(../img/letters-halfsize/w.png) left center;
+}
+.reveal .aniletter.aniletter-x {
+  background: url(../img/letters-halfsize/x.png) left center;
+}
+.reveal .aniletter.aniletter-y {
+  background: url(../img/letters-halfsize/y.png) left center;
+}
+.reveal .aniletter.aniletter-z {
+  background: url(../img/letters-halfsize/z.png) left center;
+}
+
+
+
+
+
+.reveal .aniletter.aniletter-a {
+/*margin-left: -40px;*/
+margin-right: -30px;
+}
+.reveal .aniletter.aniletter-b {
+margin-left: -10px;
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-c {
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-d {
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-e {
+/*margin-left: -40px;*/
+margin-right: -30px;
+}
+.reveal .aniletter.aniletter-f {
+/*margin-left: -40px;*/
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-g {
+/*margin-left: -40px;*/
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-h {
+/*margin-left: -40px;*/
+margin-right: -45px;
+}
+.reveal .aniletter.aniletter-i {
+margin-left: -20px;
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-j {
+/*margin-left: -40px;*/
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-k {
+/*margin-left: -40px;*/
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-l {
+margin-left: -40px;
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-m {
+/*margin-left: -40px;*/
+margin-right: -35px;
+}
+.reveal .aniletter.aniletter-n {
+/*margin-left: -40px;*/
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-o {
+/*margin-left: -40px;*/
+margin-right: -45px;
+}
+.reveal .aniletter.aniletter-p {
+/*margin-left: -40px;*/
+margin-right: -40px;
+}
+.reveal .aniletter.aniletter-q {
+/*margin-left: -40px;*/
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-r {
+/*margin-left: -40px;*/
+margin-right: -60px;
+}
+.reveal .aniletter.aniletter-s {
+margin-left: -20px;
+margin-right: -60px;
+}
+.reveal .aniletter.aniletter-t {
+margin-left: -30px;
+margin-right: -70px;
+}
+.reveal .aniletter.aniletter-u {
+/*margin-left: -40px;*/
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-v {
+/*margin-left: -40px;*/
+margin-right: -30px;
+}
+.reveal .aniletter.aniletter-w {
+/*margin-left: -40px;*/
+margin-right: -35px;
+}
+.reveal .aniletter.aniletter-x {
+/*margin-left: -40px;*/
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-y {
+/*margin-left: -40px;*/
+margin-right: -50px;
+}
+.reveal .aniletter.aniletter-z {
+/*margin-left: -40px;*/
+margin-right: -30px;
+}
+
+
+.reveal .aniletter-container {
+  text-align: left;
+  margin: auto;
+  /*width: 600px;*/
+  position: relative;
+  /*top: 50px;*/
+  left:50px;
+
+  /*border-bottom: 12px solid #fff;*/
+}
